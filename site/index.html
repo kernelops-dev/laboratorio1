@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio 1 - Sitio Estático</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; padding: 50px; }
+        h1 { color: #2ecc71; }
+    </style>
+</head>
+<body>
+    <h1>¡Laboratorio 1 funcionando!</h1>
+    <p>Sitio estático desplegado con Terraform en S3 + CloudFront.</p>
+    <p><small>Fecha de despliegue: <span id="date"></span></small></p>
+    <script>document.getElementById('date').textContent = new Date().toLocaleString();</script>
+</body>
+</html>

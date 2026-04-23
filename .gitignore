@@ -1,0 +1,12 @@
+# Archivos de estado local
+*.tfstate
+*.tfstate.*
+.terraform.lock.*
+tfplan*
+
+# Directorio de plugins
+.terraform/
+
+# Archivos de variables sensibles
+*.auto.tfvars
+*.tfvars.json
